@@ -11,6 +11,7 @@ export const router = createBrowserRouter([
         children:[
             {
                 path:'/',
+                loader:async() => await fetch('/property.json'),
                 element: <Home></Home>
             }
         ]

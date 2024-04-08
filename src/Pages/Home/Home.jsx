@@ -1,8 +1,10 @@
+import SliderSection from "../../Component/SliderSection/SliderSection";
+
 const Home = () => {
     return (
-        <div>
-            
-        </div>
+        <main>
+            <SliderSection/>
+        </main>
     );
 };
 

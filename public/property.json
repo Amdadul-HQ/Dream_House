@@ -1,0 +1,110 @@
+[
+    {
+      "id": 1,
+      "estate_title": "Luxury Penthouse with Stunning City Views",
+      "segment_name": "Penthouse",
+      "description": "Experience the epitome of luxury living in this stunning penthouse boasting breathtaking views of the city skyline. This lavish residence features top-of-the-line amenities and exquisite design.",
+      "price": "$5,000,000",
+      "status": "sale",
+      "area": "3000 sqft",
+      "location": "Downtown Metropolis",
+      "facilities": ["Spacious living room", "Private swimming pool", "State-of-the-art kitchen"],
+      "image": "https://i.postimg.cc/Ssg60ZTw/lotus-design-n-print-jt2-I98bh53-A-unsplash.jpg"
+    },
+    {
+      "id": 2,
+      "estate_title": "Exquisite Beachfront Villa with Private Access to the Ocean",
+      "segment_name": "Beachfront properties",
+      "description": "Indulge in luxury seaside living with this magnificent beachfront villa offering direct access to pristine sandy beaches. Enjoy panoramic ocean views and unparalleled tranquility in this exclusive retreat.",
+      "price": "$7,500,000",
+      "status": "sale",
+      "area": "5000 sqft",
+      "location": "Tropical Paradise Cove",
+      "facilities": ["Spacious living areas with ocean views", "Infinity pool", "Gourmet outdoor kitchen"],
+      "image": "https://i.postimg.cc/508wy4tW/claudia-altamimi-d-TV3-FTL7x58-unsplash.jpg"
+    },
+    {
+      "id": 3,
+      "estate_title": "Luxury Resort Oasis Surrounded by Lush Greenery",
+      "segment_name": "Resorts",
+      "description": "Escape to your own private paradise at this luxurious resort oasis nestled amidst verdant tropical gardens. Experience unparalleled relaxation and world-class amenities in this idyllic retreat.",
+      "price": "$10,000,000",
+      "status": "sale",
+      "area": "10 acres",
+      "location": "Exotic Island Retreat",
+      "facilities": ["Spa and wellness center", "Multiple swimming pools", "Fine dining restaurants"],
+      "image": "https://i.postimg.cc/Ls3C5F67/paolo-nicolello-2g-Ox-Kj594n-M-unsplash.jpg"
+    },
+    {
+      "id": 4,
+      "estate_title": "Exclusive Private Island Estate with Pristine Beaches",
+      "segment_name": "Private islands",
+      "description": "Own your slice of paradise with this exclusive private island estate offering secluded luxury and unparalleled privacy. With pristine beaches and lush landscapes, this is a once-in-a-lifetime opportunity.",
+      "price": "$20,000,000",
+      "status": "sale",
+      "area": "20 acres",
+      "location": "Remote Island Haven",
+      "facilities": ["Private beachfront villas", "Helipad", "Marina for yachts"],
+      "image": "https://i.postimg.cc/7L1zyxYC/aerial-wa-maldives-ithaafushi-the-private-island-ISLANDWELLNESS0921-1054887ffb5747b8a9c0c32a86388f82.jpg"
+    },
+    {
+        "id": 5,
+        "estate_title": "Ultra-Modern Sky Villa with Panoramic Views",
+        "segment_name": "Penthouse",
+        "description": "Elevate your lifestyle with this ultra-modern sky villa featuring sleek architecture and floor-to-ceiling windows offering breathtaking panoramic views of the cityscape. Experience luxury living at its finest.",
+        "price": "$8,500,000",
+        "status": "sale",
+        "area": "4000 sqft",
+        "location": "Metropolitan Skyline District",
+        "facilities": ["Spacious open-plan layout", "Private rooftop terrace", "Smart home automation"],
+        "image": "https://i.postimg.cc/hvRP4myc/mostafa-safadel-c-Hj-Axn-Jk-w-Q-unsplash.jpg"
+      },
+      {
+        "id": 6,
+        "estate_title": "Exclusive Oceanfront Mansion with Private Beach",
+        "segment_name": "Beachfront properties",
+        "description": "Discover unparalleled luxury in this exclusive oceanfront mansion featuring expansive living spaces, lush gardens, and a private beachfront. Enjoy the ultimate coastal lifestyle in this prestigious estate.",
+        "price": "$15,000,000",
+        "status": "sale",
+        "area": "8000 sqft",
+        "location": "Coastal Haven Estates",
+        "facilities": ["Grand foyer with ocean views", "Infinity-edge pool", "Home theater"],
+        "image": "https://i.postimg.cc/7LPKcQqy/Apartment-for-sale-with-3-bedrooms-3-bedroom-Penthouse-Ilot-Fortier.jpg"
+      },
+      {
+        "id": 7,
+        "estate_title": "Luxury Mountain Retreat with Spectacular Views",
+        "segment_name": "Resorts",
+        "description": "Escape to this luxury mountain retreat nestled amidst picturesque alpine scenery. With world-class amenities and breathtaking views, this resort offers the ultimate blend of relaxation and adventure.",
+        "price": "$12,000,000",
+        "status": "sale",
+        "area": "15 acres",
+        "location": "Mountain Majesty Resort",
+        "facilities": ["Ski-in/ski-out access", "Spa and wellness center", "Fine dining restaurant with mountain views"],
+        "image": "https://i.postimg.cc/fb4wfmsX/gerardo-mr-p-Qr-Xgg-KVvz-I-unsplash.jpg"
+      },
+      {
+        "id": 8,
+        "estate_title": "Private Island Paradise with Luxury Villas",
+        "segment_name": "Private islands",
+        "description": "Escape to your own private island paradise featuring luxurious villas, pristine beaches, and crystal-clear waters. Create unforgettable memories in this exclusive retreat surrounded by natural beauty.",
+        "price": "$25,000,000",
+        "status": "sale",
+        "area": "30 acres",
+        "location": "Tropical Island Hideaway",
+        "facilities": ["Private beach cabanas", "Tennis courts", "Water sports center"],
+        "image": "https://i.postimg.cc/m2HZzmfR/bd4447ba-c7f7-4724-a323-dc429e60e733-e5a8dad8.jpg"
+      },
+      {
+        "id": 9,
+        "estate_title": "Luxurious Coastal Estate with Infinity Pool",
+        "segment_name": "Beachfront properties",
+        "description": "Experience coastal living at its finest in this luxurious estate featuring a stunning infinity pool overlooking the azure waters. With lavish interiors and breathtaking views, this residence offers unparalleled sophistication.",
+        "price": "$9,500,000",
+        "status": "sale",
+        "area": "6000 sqft",
+        "location": "Sunset Beach Estates",
+        "facilities": ["Outdoor kitchen and bar", "Private beach access", "Fitness center with ocean views"],
+        "image": "https://i.postimg.cc/fyvGmSKc/puerto-los-cabos-beachfront.jpg"
+      }
+  ]
