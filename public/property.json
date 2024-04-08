@@ -9,7 +9,8 @@
       "area": "3000 sqft",
       "location": "Downtown Metropolis",
       "facilities": ["Spacious living room", "Private swimming pool", "State-of-the-art kitchen"],
-      "image": "https://i.postimg.cc/Ssg60ZTw/lotus-design-n-print-jt2-I98bh53-A-unsplash.jpg"
+      "image": "https://i.postimg.cc/Ssg60ZTw/lotus-design-n-print-jt2-I98bh53-A-unsplash.jpg",
+      "rooms": ["https://i.postimg.cc/8cxtmH7v/3c061f25beff7e7d01aae085b93c6c8a.jpg","https://i.postimg.cc/W3CH5jKt/a6fkn0kizf172pnpge20.jpg","https://i.postimg.cc/XY4DHs2K/4355665-1355341-86-0-4707-2565-2200-1200-rc.jpg"]
     },
     {
       "id": 2,
@@ -21,7 +22,8 @@
       "area": "5000 sqft",
       "location": "Tropical Paradise Cove",
       "facilities": ["Spacious living areas with ocean views", "Infinity pool", "Gourmet outdoor kitchen"],
-      "image": "https://i.postimg.cc/508wy4tW/claudia-altamimi-d-TV3-FTL7x58-unsplash.jpg"
+      "image": "https://i.postimg.cc/508wy4tW/claudia-altamimi-d-TV3-FTL7x58-unsplash.jpg",
+      "rooms": ["https://i.postimg.cc/8cxtmH7v/3c061f25beff7e7d01aae085b93c6c8a.jpg","https://i.postimg.cc/W3CH5jKt/a6fkn0kizf172pnpge20.jpg","https://i.postimg.cc/XY4DHs2K/4355665-1355341-86-0-4707-2565-2200-1200-rc.jpg"]
     },
     {
       "id": 3,
@@ -33,7 +35,8 @@
       "area": "10 acres",
       "location": "Exotic Island Retreat",
       "facilities": ["Spa and wellness center", "Multiple swimming pools", "Fine dining restaurants"],
-      "image": "https://i.postimg.cc/Ls3C5F67/paolo-nicolello-2g-Ox-Kj594n-M-unsplash.jpg"
+      "image": "https://i.postimg.cc/Ls3C5F67/paolo-nicolello-2g-Ox-Kj594n-M-unsplash.jpg",
+      "rooms": ["https://i.postimg.cc/8cxtmH7v/3c061f25beff7e7d01aae085b93c6c8a.jpg","https://i.postimg.cc/W3CH5jKt/a6fkn0kizf172pnpge20.jpg","https://i.postimg.cc/XY4DHs2K/4355665-1355341-86-0-4707-2565-2200-1200-rc.jpg"]
     },
     {
       "id": 4,
@@ -45,7 +48,8 @@
       "area": "20 acres",
       "location": "Remote Island Haven",
       "facilities": ["Private beachfront villas", "Helipad", "Marina for yachts"],
-      "image": "https://i.postimg.cc/7L1zyxYC/aerial-wa-maldives-ithaafushi-the-private-island-ISLANDWELLNESS0921-1054887ffb5747b8a9c0c32a86388f82.jpg"
+      "image": "https://i.postimg.cc/7L1zyxYC/aerial-wa-maldives-ithaafushi-the-private-island-ISLANDWELLNESS0921-1054887ffb5747b8a9c0c32a86388f82.jpg",
+      "rooms": ["https://i.postimg.cc/8cxtmH7v/3c061f25beff7e7d01aae085b93c6c8a.jpg","https://i.postimg.cc/W3CH5jKt/a6fkn0kizf172pnpge20.jpg","https://i.postimg.cc/XY4DHs2K/4355665-1355341-86-0-4707-2565-2200-1200-rc.jpg"]
     },
     {
         "id": 5,
@@ -57,7 +61,8 @@
         "area": "4000 sqft",
         "location": "Metropolitan Skyline District",
         "facilities": ["Spacious open-plan layout", "Private rooftop terrace", "Smart home automation"],
-        "image": "https://i.postimg.cc/hvRP4myc/mostafa-safadel-c-Hj-Axn-Jk-w-Q-unsplash.jpg"
+        "image": "https://i.postimg.cc/hvRP4myc/mostafa-safadel-c-Hj-Axn-Jk-w-Q-unsplash.jpg",
+        "rooms": ["https://i.postimg.cc/8cxtmH7v/3c061f25beff7e7d01aae085b93c6c8a.jpg","https://i.postimg.cc/W3CH5jKt/a6fkn0kizf172pnpge20.jpg","https://i.postimg.cc/XY4DHs2K/4355665-1355341-86-0-4707-2565-2200-1200-rc.jpg"]
       },
       {
         "id": 6,
@@ -69,7 +74,8 @@
         "area": "8000 sqft",
         "location": "Coastal Haven Estates",
         "facilities": ["Grand foyer with ocean views", "Infinity-edge pool", "Home theater"],
-        "image": "https://i.postimg.cc/7LPKcQqy/Apartment-for-sale-with-3-bedrooms-3-bedroom-Penthouse-Ilot-Fortier.jpg"
+        "image": "https://i.postimg.cc/7LPKcQqy/Apartment-for-sale-with-3-bedrooms-3-bedroom-Penthouse-Ilot-Fortier.jpg",
+        "rooms": ["https://i.postimg.cc/8cxtmH7v/3c061f25beff7e7d01aae085b93c6c8a.jpg","https://i.postimg.cc/W3CH5jKt/a6fkn0kizf172pnpge20.jpg","https://i.postimg.cc/XY4DHs2K/4355665-1355341-86-0-4707-2565-2200-1200-rc.jpg"]
       },
       {
         "id": 7,
@@ -81,7 +87,8 @@
         "area": "15 acres",
         "location": "Mountain Majesty Resort",
         "facilities": ["Ski-in/ski-out access", "Spa and wellness center", "Fine dining restaurant with mountain views"],
-        "image": "https://i.postimg.cc/fb4wfmsX/gerardo-mr-p-Qr-Xgg-KVvz-I-unsplash.jpg"
+        "image": "https://i.postimg.cc/fb4wfmsX/gerardo-mr-p-Qr-Xgg-KVvz-I-unsplash.jpg",
+        "rooms": ["https://i.postimg.cc/8cxtmH7v/3c061f25beff7e7d01aae085b93c6c8a.jpg","https://i.postimg.cc/W3CH5jKt/a6fkn0kizf172pnpge20.jpg","https://i.postimg.cc/XY4DHs2K/4355665-1355341-86-0-4707-2565-2200-1200-rc.jpg"]
       },
       {
         "id": 8,
@@ -93,7 +100,8 @@
         "area": "30 acres",
         "location": "Tropical Island Hideaway",
         "facilities": ["Private beach cabanas", "Tennis courts", "Water sports center"],
-        "image": "https://i.postimg.cc/m2HZzmfR/bd4447ba-c7f7-4724-a323-dc429e60e733-e5a8dad8.jpg"
+        "image": "https://i.postimg.cc/m2HZzmfR/bd4447ba-c7f7-4724-a323-dc429e60e733-e5a8dad8.jpg",
+        "rooms": ["https://i.postimg.cc/8cxtmH7v/3c061f25beff7e7d01aae085b93c6c8a.jpg","https://i.postimg.cc/W3CH5jKt/a6fkn0kizf172pnpge20.jpg","https://i.postimg.cc/XY4DHs2K/4355665-1355341-86-0-4707-2565-2200-1200-rc.jpg"]
       },
       {
         "id": 9,
@@ -105,6 +113,7 @@
         "area": "6000 sqft",
         "location": "Sunset Beach Estates",
         "facilities": ["Outdoor kitchen and bar", "Private beach access", "Fitness center with ocean views"],
-        "image": "https://i.postimg.cc/fyvGmSKc/puerto-los-cabos-beachfront.jpg"
+        "image": "https://i.postimg.cc/fyvGmSKc/puerto-los-cabos-beachfront.jpg",
+        "rooms": ["https://i.postimg.cc/8cxtmH7v/3c061f25beff7e7d01aae085b93c6c8a.jpg","https://i.postimg.cc/W3CH5jKt/a6fkn0kizf172pnpge20.jpg","https://i.postimg.cc/XY4DHs2K/4355665-1355341-86-0-4707-2565-2200-1200-rc.jpg"]
       }
   ]

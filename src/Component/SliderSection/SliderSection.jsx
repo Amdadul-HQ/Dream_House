@@ -1,5 +1,4 @@
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
-import React, { useEffect, useRef, useState } from 'react';
 import { useLoaderData } from "react-router-dom";
   
 // Import Swiper React components
