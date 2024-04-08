@@ -37,7 +37,7 @@ export default function SliderSection() {
                 backgroundPosition:'center'
                 }}>
                     <h1 className='text-white font-bold text-6xl'>{item.estate_title}</h1>
-                    <p className='w-[900px] text-white mt-5'>{item.description}</p>
+                    <p className='w-[900px] text-gray-300 text-base font-light mt-5'>{item.description}</p>
                     <a href="#_" className=" mt-3 backdrop-blur-3xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black  bg-gray-50 rounded-full hover:text-white group ">
                         <span className="absolute left-0 block w-full h-0 transition-all bg-black opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
                         <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
