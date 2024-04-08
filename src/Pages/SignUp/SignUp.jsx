@@ -69,7 +69,7 @@ const SignUp = () => {
                   </div>
                   <div className="mt-6">
                        <label className="text-xl font-semibold" htmlFor="image">Your Photo</label>
-                       <input {...register("image", { required: true })} className="bg-Dark3 px-5 py-3 block mt-4 w-full outline-none rounded-md" type="text" name="image" id="image" placeholder="Enter your Photo URL"  />
+                       <input {...register("image", { required: true })} className="bg-Dark3 px-5 py-3 block mt-4 w-full outline-none rounded-md" type="url" name="image" id="image" placeholder="Enter your Photo URL"  />
                   </div>
                   <div className="mt-6">
                        <label className="text-xl font-semibold" htmlFor="email">Email address</label>

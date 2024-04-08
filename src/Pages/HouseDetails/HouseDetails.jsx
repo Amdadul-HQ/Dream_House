@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useLoaderData ,useParams  } from "react-router-dom";
 import { FaCircleArrowRight } from "react-icons/fa6";
 import { MdLocationOn } from "react-icons/md"
-import { Map , Marker , Popup , TileLayer } from "leaflet";
 
 
 const HouseDetails = () => {
@@ -17,7 +16,7 @@ const HouseDetails = () => {
         setHouse(item)
     },[house, id, property])
 
-    const {rooms,image,facilities,estate_title,segment_name,description,area,status,price,location} = house;
+    const {rooms,image,facilities,estate_title,segment_name,description,area,status,price,location,location_url} = house;
     return (
         <section className="max-w-screen-xl mx-auto mt-10 mb-32">
                 <div className="flex gap-x-6">
@@ -50,10 +49,15 @@ const HouseDetails = () => {
 
                         <div className="">
                             <h1 className="text-2xl font-medium flex items-center gap-x-3"><MdLocationOn className="text-red-600"/>{location}</h1>
-                            <div>
-                               {/* <Map>
-
-                               </Map> */}
+                            <div className="my-4">
+                               <iframe
+                                src={location_url}
+                                width={'100%'}
+                                height="350"
+                                style={{ border: 0, borderRadius: '12px' }}
+                                allowFullScreen={true}
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                             
                         </div>

@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link , useNavigate , useLocation  } from 'react-router-dom';
 import { IoEye } from "react-icons/io5";
 import { IoMdEyeOff } from "react-icons/io";
 import { AuthContext } from '../../Context/ContextComponent';
@@ -14,6 +14,13 @@ const Login = () => {
         handleSubmit,
         formState: { errors },
       } = useForm()
+      const navigate = useNavigate();
+    const location = useLocation();
+    const history = location.state?.from || '/';
+
+    const navigateNow = () => {
+        setTimeout(() => { navigate(history, { replace: true }) }, 1)
+    }
     
     const { logIn , signInWithGoogle , signInWithGitHub } = useContext(AuthContext)
 
@@ -28,6 +35,7 @@ const Login = () => {
                 text: "Click Ok!",
                 icon: "success"
               })
+              navigateNow()
         } )
         .catch( errors =>{
             Swal.fire({
@@ -46,6 +54,7 @@ const Login = () => {
                 text: "Click Ok!",
                 icon: "success"
               })
+              navigateNow()
         } )
         .catch( errors =>{
             Swal.fire({
@@ -66,6 +75,7 @@ const Login = () => {
                 text: "Click Ok!",
                 icon: "success"
               });
+              navigateNow()
 
         } )
         .catch( errors => {

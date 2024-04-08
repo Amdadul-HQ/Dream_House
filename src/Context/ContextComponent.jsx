@@ -40,15 +40,17 @@ const ContextComponent = ({children}) => {
         const unSubcribe = onAuthStateChanged(auth,currentUser => {
             if(currentUser){
                 setUser(currentUser)
+                setLoading(false)
             }
             else{
                 setUser(null)
+                setLoading(false)
             }
         });
         return () => unSubcribe()
     },[])
 
-    const info = { signUp , logIn , signInWithGoogle , user , signInWithGitHub , logOut }
+    const info = { signUp , logIn , signInWithGoogle , user , signInWithGitHub , logOut , loading}
     return (
         <AuthContext.Provider value={info}>
             {children}

@@ -31,9 +31,9 @@ const Header = () => {
             <nav className="flex items-center justify-between py-5">
                 <h1 className="text-4xl font-bold"><span className="text-[#6E00FF]">Dream</span> House</h1>
                 <ul className="flex items-center gap-x-8 text-lg font-medium">
-                    <NavLink>Home</NavLink>
-                    <NavLink>About Us</NavLink>
-                    <NavLink>Contract</NavLink>
+                    <NavLink to='/'>Home</NavLink>
+                    <NavLink to='/about'>About Us</NavLink>
+                    <NavLink to='/contract'>Contract</NavLink>
                 </ul>
                 <div className="flex items-center gap-x-3">
                 {

@@ -14,7 +14,7 @@ const FindHome = () => {
                         </div>
                         <p className="text-base text-[#6E00FF] mt-2 font-medium">{house.segment_name}</p>
                         <h1 className="text-[#010101] text-3xl mb-4">{house.estate_title}</h1>
-                        <p className="text-[#5A5959] font-medium">{house.description.slice(0,100)}...<Link className="text-[#6E00FF]">Show More</Link></p>
+                        <p className="text-[#5A5959] font-medium">{house.description.slice(0,100)}...<Link to={`/house/${house.id}`} className="text-[#6E00FF]">Show More</Link></p>
                         <div className="flex justify-between items-center text-[#010101] text-xl mt-3 font-medium">
                             <p>For {house.status}</p>
                             <p>Price: {house.price}</p>

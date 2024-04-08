@@ -35,7 +35,7 @@ export default function SliderSection() {
                 backgroundSize:'cover',
                 backgroundPosition:'center'
                 }}>
-                    <h1 className='text-white font-bold text-6xl'>{item.estate_title}</h1>
+                    <h1 className='text-white font-bold text-5xl'>{item.estate_title}</h1>
                     <p className='w-[900px] text-gray-300 text-base font-light mt-5'>{item.description}</p>
                     <Link to={`/house/${item.id}`} className=" mt-3 backdrop-blur-3xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black  bg-gray-50 rounded-full hover:text-white group ">
                         <span className="absolute left-0 block w-full h-0 transition-all bg-black opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>

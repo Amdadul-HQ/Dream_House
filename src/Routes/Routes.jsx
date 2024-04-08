@@ -7,6 +7,7 @@ import Contract from "../Pages/Contract/Contract";
 import HouseDetails from "../Pages/HouseDetails/HouseDetails";
 import SignUp from "../Pages/SignUp/SignUp";
 import Login from "../Pages/Login/Login";
+import PrivateComponent from "../Component/Private/PrivateComponent";
 
 export const router = createBrowserRouter([
     {
@@ -30,7 +31,7 @@ export const router = createBrowserRouter([
             {
                 path:'/house/:id',
                 loader: async() => await fetch('/property.json'),
-                element:<HouseDetails/>
+                element:<PrivateComponent><HouseDetails/></PrivateComponent>
             },
             {
                 path:'/signup',
