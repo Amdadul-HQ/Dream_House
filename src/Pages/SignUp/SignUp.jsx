@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { IoEye } from "react-icons/io5";
 import { IoMdEyeOff } from "react-icons/io";
@@ -9,6 +9,7 @@ import Swal from 'sweetalert2'
 const SignUp = () => {
 
     const[passShow,setPassShow] = useState(false);
+    const pattern = /(?=.*[A-Z])(?=.*[a-z]).{6,}$/
     const {
         register,
         handleSubmit,
@@ -25,6 +26,14 @@ const SignUp = () => {
 
         const {fullName , email , Password ,image} = data;
 
+
+        if(!pattern.test(Password)){
+            return Swal.fire({
+                title:"Password Must Have at least One Upper Case One Lower Case Minimum length 6",
+                text: "Click Ok For Close!",
+                icon: "error"
+              });
+        }
         signUp(email,Password)
         .then( result => {
             Swal.fire({
@@ -32,6 +41,7 @@ const SignUp = () => {
                 text: "Click Ok button",
                 icon: "success"
               });
+            
 
         } )
         .catch( errors => {
@@ -48,7 +58,7 @@ const SignUp = () => {
     return (
     <section className="mt-5 mb-32">
        <div className="flex justify-between items-center ">
-           <div className="bg-gray-200 w-[750px] mx-auto py-6 px-10 rounded-md border">
+           <div className="bg-gray-200 w-[650px] mx-auto py-6 px-10 rounded-md border">
                 <h1 className="text-4xl font-semibold text-center">Register Your Account</h1>
                 <hr className="my-7 border-black border" />
                 <form onSubmit={handleSubmit(onSubmit)}>
