@@ -5,6 +5,7 @@ import { MdVerified } from "react-icons/md";
 import { GoUnverified } from "react-icons/go";
 import Swal from 'sweetalert2'
 import { Helmet } from "react-helmet-async";
+import { Tooltip } from 'react-tooltip'
 
 const Profile = () => {
 
@@ -56,7 +57,7 @@ const Profile = () => {
                     <p className="text-lg font-semibold mt-4">Full Name : {user.displayName}</p>
                     <div className="flex items-center gap-x-4 ">
                     <p className="text-lg font-semibold mt-4">Email : {user.email}</p>
-                    <p className="text-2xl mt-3 text-indigo-600">{user.emailVerified ? <MdVerified title="Varified" className="" /> : <GoUnverified title="NOT Varified"/> }</p>
+                    <p className="text-2xl mt-3 text-indigo-600">{user.emailVerified ? <MdVerified data-tooltip-content="Verified" data-tooltip-place="top" data-tooltip-id="my-tooltip"  /> : <GoUnverified data-tooltip-content="Not Verified" data-tooltip-place="top" data-tooltip-id="my-tooltip" /> }</p>
                     </div>
                     <p className="text-lg font-semibold mt-4">Phone Number : {user.phoneNumber}</p>
                 </div>
@@ -82,7 +83,7 @@ const Profile = () => {
                             </div>
                     </form>
                 </div>
-
+                <Tooltip id="my-tooltip" />
         </section>
     );
 };
