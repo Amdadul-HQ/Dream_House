@@ -24,18 +24,18 @@ const HouseDetails = () => {
             <Helmet>
                 <title>House Details</title>
             </Helmet>
-                <div className="flex gap-x-6">
-                    <div className="w-[70%] mt-12">
-                         <img className="h-[500px] w-full rounded-lg" src={image} alt="" />
-                         <div className="grid grid-cols-3 gap-x-5 mt-6">
+                <div className="flex md:flex-row flex-col gap-x-6">
+                    <div className="md:w-[70%] md:mt-12">
+                         <img className="md:h-[500px] h-[300px] w-full rounded-lg" src={image} alt="" />
+                         <div className="grid grid-cols-3 gap-x-2 md:gap-x-5 mt-6">
                             {
                                 rooms && 
-                                rooms.map(( room ,inx)=> <img key={inx} className="w-full h-[200px] rounded-xl" src={room} /> ) 
+                                rooms.map(( room ,inx)=> <img key={inx} className="w-full md:h-[200px] rounded-xl" src={room} /> ) 
                             }
                         </div>
                     </div>
-                    <div className="w-[30%]">
-                        <p className="text-lg font-medium text-center pb-1 border-b-2">A Luxurious {segment_name}</p>
+                    <div className="md:w-[30%] md:px-0 px-3">
+                        <p className="md:text-lg text-2xl md:mt-0 mt-5 font-medium text-center pb-1 border-b-2">A Luxurious {segment_name}</p>
                         <h1 className="text-[#010101] text-3xl font-medium my-4">{estate_title}</h1>
                         <p className="text-[#6A6A6A] font-medium mb-3">Details: {description}</p>
                         <h1 className="text-lg font-semibold mt-3">Facilities:</h1>

@@ -42,11 +42,11 @@ const Profile = () => {
 
 
     return (
-        <section>
+        <section className="md:px-0 px-3">
             <Helmet>
                 <title>Profile</title>
             </Helmet>
-            <div className="w-[500px] mx-auto">
+            <div className="md:w-[500px] mx-auto">
                 <h1 className="text-5xl font-semibold text-center">My Profile</h1>
                 {
                     user && <div>
@@ -62,8 +62,8 @@ const Profile = () => {
                 </div>
                 }
             </div>
-                <div className="bg-gray-200 w-[650px] mx-auto py-6 px-10 rounded-md border my-12">
-                    <h1 className="text-5xl font-semibold text-center my-10">Update <br /> Your Information</h1>
+                <div className="bg-gray-200 md:w-[650px] mx-auto py-6 px-10 rounded-md border my-12">
+                    <h1 className="md:text-5xl text-xl font-semibold text-center my-10">Update <br /> Your Information</h1>
                     <form to='/profile' onSubmit={handleSubmit(onSubmit)}>
                             <div>
                                 <label className="text-xl font-semibold" htmlFor="fullName">Your Name</label>

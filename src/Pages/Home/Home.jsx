@@ -6,14 +6,14 @@ import States from "../../Component/States/States";
 
 const Home = () => {
     return (
-        <main>
+        <main className="-z-50">
             <Helmet>
                 <title>Dream House</title>
             </Helmet>
             <SliderSection/>
-            {/* <FindHome/> */}
-            {/* <States/> */}
-            {/* <CustomerReview/> */}
+            <FindHome/>
+            <States/>
+            <CustomerReview/>
         </main>
     );
 };

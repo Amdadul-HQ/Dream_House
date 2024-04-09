@@ -16,7 +16,7 @@ import './styles.css';
 export default function SliderSection() {
     const albums = useLoaderData();
   return (
-    <section className='h-[700px] max-w-screen-xl mx-auto'>
+    <section className='h-[700px] max-w-screen-xl mx-auto -z-50'>
       <Swiper
         pagination={{
         }}
@@ -26,7 +26,7 @@ export default function SliderSection() {
           }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper -z-50"
       >{
         albums.map( item => <SwiperSlide key={item.id} item={item} >
             <div className='w-full h-full rounded-2xl bg-no-repeat flex flex-col justify-center items-center' style={{

@@ -3,17 +3,17 @@ import { Link, useLoaderData } from "react-router-dom";
 const FindHome = () => {
     const property = useLoaderData()
     return (
-        <section className="my-32 max-w-screen-xl mx-auto">
-            <h1 className="text-[#010101] font-normal text-7xl text-center">Find Your <span className="text-[#6E00FF] font-semibold">Dream</span><br /> Home Here </h1>
-            <p className="text-center mt-5 text-xl">Explore opulent residences tailored to your desires, from serene estates to chic city retreats. Your dream home awaits amidst luxury.</p>
-            <div className="grid grid-cols-3 gap-6 my-12">
+        <section className="my-32 max-w-screen-xl mx-auto md:px-0 px-5">
+            <h1 className="text-[#010101] font-normal text-4xl md:text-7xl text-center">Find Your <span className="text-[#6E00FF] font-semibold">Dream</span><br /> Home Here </h1>
+            <p className="text-center mt-5 text-sm md:text-xl">Explore opulent residences tailored to your desires, from serene estates to chic city retreats. Your dream home awaits amidst luxury.</p>
+            <div className="grid md:grid-cols-3 grid-cols-1 gap-6 my-12">
                 {
                     property.map( house => <div key={house.id} className="p-5 border rounded-xl flex flex-col justify-between">
                         <div>
-                            <img className="w-full h-[250px] rounded-xl" src={house.image} alt="" />
+                            <img className="w-full h-[180px] md:h-[250px] rounded-xl" src={house.image} alt="" />
                         </div>
                         <p className="text-base text-[#6E00FF] mt-2 font-medium">{house.segment_name}</p>
-                        <h1 className="text-[#010101] text-3xl mb-4">{house.estate_title}</h1>
+                        <h1 className="text-[#010101] text-xl md:text-3xl mb-4">{house.estate_title}</h1>
                         <p className="text-[#5A5959] font-medium">{house.description.slice(0,100)}...<Link to={`/house/${house.id}`} className="text-[#6E00FF]">Show More</Link></p>
                         <div className="flex justify-between items-center text-[#010101] text-xl mt-3 font-medium">
                             <p>For {house.status}</p>

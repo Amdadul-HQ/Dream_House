@@ -2,14 +2,14 @@ import { Helmet } from "react-helmet-async";
 
 const Faq = () => {
     return (
-        <section className="max-w-screen-xl mx-auto flex gap-x-6 items-center my-32">
+        <section className="max-w-screen-xl mx-auto flex md:flex-row flex-col gap-x-6 items-center my-20 md:px-0 px-5">
             <Helmet>
                 <title>FAQ Section</title>
             </Helmet>
-            <div className="w-[50%]">
-                <img className="rounded-xl mt-28" src="https://i.postimg.cc/vHrPCW2B/blog5eaaa5cb18719-nativemsg-faq.jpg" alt="" />
+            <div className="md:w-[50%]">
+                <img className="rounded-xl md:mt-28" src="https://i.postimg.cc/vHrPCW2B/blog5eaaa5cb18719-nativemsg-faq.jpg" alt="" />
             </div>
-            <div className="w-[50%]">
+            <div className="md:w-[50%]">
             <h1 className="text-5xl text-center font-normal text-[#010101] my-8">Frequently Asked Question</h1>
                 <div>
                     <div className="collapse collapse-arrow bg-base-200">
