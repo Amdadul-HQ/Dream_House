@@ -18,7 +18,7 @@ const SignUp = () => {
         formState: { errors },
       } = useForm()
     
-    const { signUp } = useContext(AuthContext)
+    const { signUp , updateUserProfile } = useContext(AuthContext)
 
     const navigate = useNavigate();
     const location = useLocation();
@@ -33,7 +33,7 @@ const SignUp = () => {
     }
     const onSubmit = (data) =>{
 
-        const {fullName , email , Password ,image} = data;
+        const {fullName , email , Password , image} = data;
 
 
         if(!pattern.test(Password)){
@@ -45,15 +45,23 @@ const SignUp = () => {
         }
         signUp(email,Password)
         .then( result => {
+          updateUserProfile(fullName,image)
+            .then( () => {
+              
+            })
+            .catch(error => {
+              return Swal.fire({
+                title: `${error.message.split('/')[1].split(')')[0]}`,
+                text: "Click Ok For Close!",
+                icon: "error"
+              })
+            })
             Swal.fire({
                 title: "Sign Up Successful!",
                 text: "Click Ok button",
                 icon: "success"
               });
               navigateNow()
-
-            
-
         } )
         .catch( errors => {
             Swal.fire({
