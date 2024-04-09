@@ -22,7 +22,7 @@ const SignUp = () => {
 
     const navigate = useNavigate();
     const location = useLocation();
-    const history = location.state?.from || '/';
+    const history = location.state?.from || '/login';
 
     const navigateNow = () => {
         setTimeout(() => { navigate(history, { replace: true }) }, 1)

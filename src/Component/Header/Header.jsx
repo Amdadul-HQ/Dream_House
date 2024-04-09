@@ -5,6 +5,7 @@ import { AuthContext } from "../../Context/ContextComponent";
 import Swal from 'sweetalert2';
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
+import { Tooltip } from 'react-tooltip'
 
 const Header = () => {
     const[showMenu,setShowMenu] = useState(false)
@@ -62,7 +63,7 @@ const Header = () => {
                 }
                 {
                     user ? <div className="p-1 rounded-full border-2">
-                        <img className="w-10 h-10 rounded-full" src={user?.photoURL || <FaUser className="text-2xl"></FaUser>} alt="" />
+                        <img className="w-10 h-10 rounded-full" data-tooltip-id="my-tooltip" data-tooltip-place="right" data-tooltip-content={user?.displayName}  src={user?.photoURL || <FaUser className="text-2xl"></FaUser>} alt="" />
                     </div> : <div className="p-2 border-2 rounded-full cursor-pointer border-[#010101]">
                     <FaUser className="text-2xl"/>
                 </div>
@@ -89,6 +90,7 @@ const Header = () => {
                         showMenu ? <IoClose onClick={handleMenuBar}></IoClose> : <IoMenu onClick={handleMenuBar}></IoMenu>
                     }
                 </div>
+                <Tooltip id="my-tooltip" />
             </nav>
         </header>
     );
