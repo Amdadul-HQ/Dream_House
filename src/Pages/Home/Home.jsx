@@ -11,9 +11,9 @@ const Home = () => {
                 <title>Dream House</title>
             </Helmet>
             <SliderSection/>
-            <FindHome/>
-            <States/>
-            <CustomerReview/>
+            {/* <FindHome/> */}
+            {/* <States/> */}
+            {/* <CustomerReview/> */}
         </main>
     );
 };
