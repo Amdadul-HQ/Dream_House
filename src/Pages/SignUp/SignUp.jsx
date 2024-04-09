@@ -1,5 +1,6 @@
 import { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
+import {  useNavigate , useLocation  } from 'react-router-dom';
 import { IoEye } from "react-icons/io5";
 import { IoMdEyeOff } from "react-icons/io";
 import { AuthContext } from '../../Context/ContextComponent';
@@ -19,6 +20,13 @@ const SignUp = () => {
     
     const { signUp } = useContext(AuthContext)
 
+    const navigate = useNavigate();
+    const location = useLocation();
+    const history = location.state?.from || '/';
+
+    const navigateNow = () => {
+        setTimeout(() => { navigate(history, { replace: true }) }, 1)
+    }
 
     const handlePassShow = () =>{
         setPassShow(!passShow)
@@ -42,6 +50,8 @@ const SignUp = () => {
                 text: "Click Ok button",
                 icon: "success"
               });
+              navigateNow()
+
             
 
         } )

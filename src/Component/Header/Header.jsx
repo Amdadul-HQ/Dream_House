@@ -31,9 +31,10 @@ const Header = () => {
             <nav className="flex items-center justify-between py-5">
                 <Link to='/' className="text-4xl font-bold"><span className="text-[#6E00FF]">Dream</span> House</Link>
                 <ul className="flex items-center gap-x-8 text-lg font-medium">
-                    <NavLink to='/'>Home</NavLink>
-                    <NavLink to='/about'>About Us</NavLink>
-                    <NavLink to='/profile'>Profile</NavLink>
+                    <NavLink className={({isActive}) => isActive ? 'text-indigo-600 font-semibold px-3 py-2 rounded-lg border-2 border-indigo-600 hover:bg-indigo-600 hover:text-white transition-all' : 'px-3 py-2 transition-all duration-500 hover:bg-indigo-600 hover:text-white border border-transparent rounded-lg'} to='/'>Home</NavLink>
+                    <NavLink className={({isActive}) => isActive ? 'text-indigo-600 font-semibold px-3 py-2 rounded-lg border-2 border-indigo-600 hover:bg-indigo-600 hover:text-white transition-all' : 'px-3 py-2 transition-all duration-500 hover:bg-indigo-600 hover:text-white border border-transparent rounded-lg'} to='/about'>About Us</NavLink>
+                    <NavLink className={({isActive}) => isActive ? 'text-indigo-600 font-semibold px-3 py-2 rounded-lg border-2 border-indigo-600 hover:bg-indigo-600 hover:text-white transition-all' : 'px-3 py-2 transition-all duration-500 hover:bg-indigo-600 hover:text-white border border-transparent rounded-lg'} to='/faq'>FAQ</NavLink>
+                    <NavLink className={({isActive}) => isActive ? 'text-indigo-600 font-semibold px-3 py-2 rounded-lg border-2 border-indigo-600 hover:bg-indigo-600 hover:text-white transition-all' : 'px-3 py-2 transition-all duration-500 hover:bg-indigo-600 hover:text-white border border-transparent rounded-lg'} to='/profile'>Profile</NavLink>
                 </ul>
                 <div className="flex items-center gap-x-3">
                 {
@@ -52,9 +53,14 @@ const Header = () => {
                     <span className="relative">Log in</span>
                 </Link>
                 }
-                        <div className="p-2 border-2 rounded-full cursor-pointer border-[#010101]">
-                            <FaUser className="text-2xl"/>
-                        </div>
+                {
+                    user ? <div className="p-1 rounded-full border-2">
+                        <img className="w-10 h-10 rounded-full" src={user?.photoURL || <FaUser className="text-2xl"></FaUser>} alt="" />
+                    </div> : <div className="p-2 border-2 rounded-full cursor-pointer border-[#010101]">
+                    <FaUser className="text-2xl"/>
+                </div>
+                }
+                
                      </div>
             </nav>
         </header>

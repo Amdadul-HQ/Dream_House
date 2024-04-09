@@ -3,12 +3,12 @@ import Root from "../Layout/Root";
 import Error from "../Pages/Error/Error";
 import Home from "../Pages/Home/Home";
 import About from "../Pages/About/About";
-import Contract from "../Pages/Contract/Contract";
 import HouseDetails from "../Pages/HouseDetails/HouseDetails";
 import SignUp from "../Pages/SignUp/SignUp";
 import Login from "../Pages/Login/Login";
 import PrivateComponent from "../Component/Private/PrivateComponent";
 import Profile from "../Pages/Profile/Profile";
+import Faq from "../Pages/Faq/Faq";
 
 export const router = createBrowserRouter([
     {
@@ -26,10 +26,6 @@ export const router = createBrowserRouter([
                 element:<About/>
             },
             {
-                path:'/contract',
-                element:<Contract/>
-            },
-            {
                 path:'/house/:id',
                 loader: async() => await fetch('/property.json'),
                 element:<PrivateComponent><HouseDetails/></PrivateComponent>
@@ -44,7 +40,11 @@ export const router = createBrowserRouter([
             },
             {
                 path:'/profile',
-                element:<Profile/>
+                element:<PrivateComponent><Profile/></PrivateComponent>
+            },
+            {
+                path:'/faq',
+                element:<Faq/>
             }
         ]
     }
