@@ -10,8 +10,8 @@
       "location": "Downtown Metropolis,New York , USA",
       "facilities": ["Spacious living room", "Private swimming pool", "State-of-the-art kitchen"],
       "image": "https://i.postimg.cc/Ssg60ZTw/lotus-design-n-print-jt2-I98bh53-A-unsplash.jpg",
-      "rooms": ["https://i.postimg.cc/8cxtmH7v/3c061f25beff7e7d01aae085b93c6c8a.jpg","https://i.postimg.cc/W3CH5jKt/a6fkn0kizf172pnpge20.jpg","https://i.postimg.cc/XY4DHs2K/4355665-1355341-86-0-4707-2565-2200-1200-rc.jpg"],
-      "location_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1347.144580909603!2d-74.00688469653977!3d40.712790707939185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1712599201861!5m2!1sen!2sbd"
+      "rooms": ["https://i.postimg.cc/K8vxkn9H/phenthouseroom1.jpg","https://i.postimg.cc/pT8g1ZVk/penthouseroom2.jpg","https://i.postimg.cc/jdNBxvzb/phenthouseroom3.jpg"],
+      "position":{"lat":-22.9519, "lng": -43.2105}
     },
     {
       "id": 2,
@@ -24,8 +24,8 @@
       "location": "Tropical Paradise Cove",
       "facilities": ["Spacious living areas with ocean views", "Infinity pool", "Gourmet outdoor kitchen"],
       "image": "https://i.postimg.cc/508wy4tW/claudia-altamimi-d-TV3-FTL7x58-unsplash.jpg",
-      "rooms": ["https://i.postimg.cc/8cxtmH7v/3c061f25beff7e7d01aae085b93c6c8a.jpg","https://i.postimg.cc/W3CH5jKt/a6fkn0kizf172pnpge20.jpg","https://i.postimg.cc/XY4DHs2K/4355665-1355341-86-0-4707-2565-2200-1200-rc.jpg"],
-      "location_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d295.5964860459445!2d55.93842200083928!3d-4.583896306128484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x231fba2f4c772ef1%3A0x4ee00fb91339abe!2sFregate!5e0!3m2!1sen!2sbd!4v1712599515137!5m2!1sen!2sbd"
+      "rooms": ["https://i.postimg.cc/sDqf8n3C/Beachfrontpropertiesroom1.jpg","https://i.postimg.cc/KYrZ1xBm/HEBeachfront-propertiesroom2.jpg","https://i.postimg.cc/k4J78zvK/Beachfront-propertiesroom3.jpg"],
+      "position":{"lat": 27.9881, "lng":86.925}
     },
     {
       "id": 3,
@@ -38,8 +38,8 @@
       "location": "Exotic Island Retreat",
       "facilities": ["Spa and wellness center", "Multiple swimming pools", "Fine dining restaurants"],
       "image": "https://i.postimg.cc/Ls3C5F67/paolo-nicolello-2g-Ox-Kj594n-M-unsplash.jpg",
-      "rooms": ["https://i.postimg.cc/8cxtmH7v/3c061f25beff7e7d01aae085b93c6c8a.jpg","https://i.postimg.cc/W3CH5jKt/a6fkn0kizf172pnpge20.jpg","https://i.postimg.cc/XY4DHs2K/4355665-1355341-86-0-4707-2565-2200-1200-rc.jpg"],
-      "location_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d213.37168631062357!2d-115.16795967236366!3d36.13400936614267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c40d424ec785%3A0x46f0f1df163094c4!2sResorts%20World%20Las%20Vegas!5e0!3m2!1sen!2sbd!4v1712599656285!5m2!1sen!2sbd"
+      "rooms": ["https://i.postimg.cc/Rqr81nxy/resortroom1.jpg","https://i.postimg.cc/ncBVy4rs/resortroom2.jpg","https://i.postimg.cc/ncBVy4rs/resortroom2.jpg"],
+      "position":{"lat":41.8902, "lng":  12.4922}
     },
     {
       "id": 4,
@@ -52,8 +52,8 @@
       "location": "Remote Island Haven",
       "facilities": ["Private beachfront villas", "Helipad", "Marina for yachts"],
       "image": "https://i.postimg.cc/7L1zyxYC/aerial-wa-maldives-ithaafushi-the-private-island-ISLANDWELLNESS0921-1054887ffb5747b8a9c0c32a86388f82.jpg",
-      "rooms": ["https://i.postimg.cc/8cxtmH7v/3c061f25beff7e7d01aae085b93c6c8a.jpg","https://i.postimg.cc/W3CH5jKt/a6fkn0kizf172pnpge20.jpg","https://i.postimg.cc/XY4DHs2K/4355665-1355341-86-0-4707-2565-2200-1200-rc.jpg"],
-      "location_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6741237.642995375!2d116.84241765849984!3d11.156665494006475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aee637333f34c9%3A0x41321392232b90a4!2sBuenavista%2C%20Guimaras%2C%20Philippines!5e0!3m2!1sen!2sbd!4v1712599813863!5m2!1sen!2sbd"
+      "rooms": ["https://i.postimg.cc/x8G7R1jd/view1.jpg","https://i.postimg.cc/Nf4S2FPJ/view2.jpg","https://i.postimg.cc/XvZzP8Nm/view3.jpg"],
+      "position":{"lat": 40.4319, "lng": 116.5704}
     },
     {
         "id": 5,
@@ -67,7 +67,7 @@
         "facilities": ["Spacious open-plan layout", "Private rooftop terrace", "Smart home automation"],
         "image": "https://i.postimg.cc/hvRP4myc/mostafa-safadel-c-Hj-Axn-Jk-w-Q-unsplash.jpg",
         "rooms": ["https://i.postimg.cc/8cxtmH7v/3c061f25beff7e7d01aae085b93c6c8a.jpg","https://i.postimg.cc/W3CH5jKt/a6fkn0kizf172pnpge20.jpg","https://i.postimg.cc/XY4DHs2K/4355665-1355341-86-0-4707-2565-2200-1200-rc.jpg"],
-        "location_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6442.9313258914535!2d-115.20161613821982!3d36.15522151654958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c15edf18cabd%3A0x92ad79e620c6479c!2sCountry%20Club%20at%20Valley%20View!5e0!3m2!1sen!2sbd!4v1712599963707!5m2!1sen!2sbd"
+        "position":{"lat": -13.1631, "lng": -72.545}
       },
       {
         "id": 6,
@@ -80,8 +80,8 @@
         "location": "Coastal Haven Estates",
         "facilities": ["Grand foyer with ocean views", "Infinity-edge pool", "Home theater"],
         "image": "https://i.postimg.cc/7LPKcQqy/Apartment-for-sale-with-3-bedrooms-3-bedroom-Penthouse-Ilot-Fortier.jpg",
-        "rooms": ["https://i.postimg.cc/8cxtmH7v/3c061f25beff7e7d01aae085b93c6c8a.jpg","https://i.postimg.cc/W3CH5jKt/a6fkn0kizf172pnpge20.jpg","https://i.postimg.cc/XY4DHs2K/4355665-1355341-86-0-4707-2565-2200-1200-rc.jpg"],
-        "location_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4865.646936045406!2d-87.17811094509182!3d30.421018963339474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8890c12749647d25%3A0x2a30aa8fb15fe6e3!2sBeachfront%20Properties!5e0!3m2!1sen!2sbd!4v1712600076918!5m2!1sen!2sbd"
+        "rooms": ["https://i.postimg.cc/sDqf8n3C/Beachfrontpropertiesroom1.jpg","https://i.postimg.cc/KYrZ1xBm/HEBeachfront-propertiesroom2.jpg","https://i.postimg.cc/k4J78zvK/Beachfront-propertiesroom3.jpg"],
+        "position":{"lat": 27.1751, "lng": 78.0421}
       },
       {
         "id": 7,
@@ -94,8 +94,8 @@
         "location": "Mountain Majesty Resort",
         "facilities": ["Ski-in/ski-out access", "Spa and wellness center", "Fine dining restaurant with mountain views"],
         "image": "https://i.postimg.cc/fb4wfmsX/gerardo-mr-p-Qr-Xgg-KVvz-I-unsplash.jpg",
-        "rooms": ["https://i.postimg.cc/8cxtmH7v/3c061f25beff7e7d01aae085b93c6c8a.jpg","https://i.postimg.cc/W3CH5jKt/a6fkn0kizf172pnpge20.jpg","https://i.postimg.cc/XY4DHs2K/4355665-1355341-86-0-4707-2565-2200-1200-rc.jpg"],
-        "location_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2044.8188127469975!2d-1.7202397512268954!3d52.44811208738201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870b1241668c619%3A0x665992a0559ba228!2sResorts%20World%20Arena!5e0!3m2!1sen!2sbd!4v1712600205245!5m2!1sen!2sbd"
+        "rooms": ["https://i.postimg.cc/Rqr81nxy/resortroom1.jpg","https://i.postimg.cc/ncBVy4rs/resortroom2.jpg","https://i.postimg.cc/ncBVy4rs/resortroom2.jpg"],
+        "position":{"lat": -33.8568, "lng": 151.2153}
       },
       {
         "id": 8,
@@ -108,8 +108,8 @@
         "location": "Tropical Island Hideaway",
         "facilities": ["Private beach cabanas", "Tennis courts", "Water sports center"],
         "image": "https://i.postimg.cc/m2HZzmfR/bd4447ba-c7f7-4724-a323-dc429e60e733-e5a8dad8.jpg",
-        "rooms": ["https://i.postimg.cc/8cxtmH7v/3c061f25beff7e7d01aae085b93c6c8a.jpg","https://i.postimg.cc/W3CH5jKt/a6fkn0kizf172pnpge20.jpg","https://i.postimg.cc/XY4DHs2K/4355665-1355341-86-0-4707-2565-2200-1200-rc.jpg"],
-        "location_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2146.6183910428094!2d55.22442717576583!3d25.1975759172902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f421df6a4531b%3A0x795fa5140823996f!2sPrivate%20Island!5e0!3m2!1sen!2sbd!4v1712600302941!5m2!1sen!2sbd"
+        "rooms": ["https://i.postimg.cc/x8G7R1jd/view1.jpg","https://i.postimg.cc/Nf4S2FPJ/view2.jpg","https://i.postimg.cc/XvZzP8Nm/view3.jpg"],
+        "position":{"lat": 48.8584, "lng": 2.2945}
       },
       {
         "id": 9,
@@ -122,7 +122,7 @@
         "location": "Sunset Beach Estates",
         "facilities": ["Outdoor kitchen and bar", "Private beach access", "Fitness center with ocean views"],
         "image": "https://i.postimg.cc/fyvGmSKc/puerto-los-cabos-beachfront.jpg",
-        "rooms": ["https://i.postimg.cc/8cxtmH7v/3c061f25beff7e7d01aae085b93c6c8a.jpg","https://i.postimg.cc/W3CH5jKt/a6fkn0kizf172pnpge20.jpg","https://i.postimg.cc/XY4DHs2K/4355665-1355341-86-0-4707-2565-2200-1200-rc.jpg"],
-        "location_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7279.504244422709!2d54.01624828577042!3d24.180424550380963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5de1212f2decb5%3A0x5d3bb75b68858975!2sCLS-12M!5e0!3m2!1sen!2sbd!4v1712600389895!5m2!1sen!2sbd"
+        "rooms": ["https://i.postimg.cc/sDqf8n3C/Beachfrontpropertiesroom1.jpg","https://i.postimg.cc/KYrZ1xBm/HEBeachfront-propertiesroom2.jpg","https://i.postimg.cc/k4J78zvK/Beachfront-propertiesroom3.jpg"],
+        "position":{"lat": 40.6892, "lng": -74.0445}
       }
   ]

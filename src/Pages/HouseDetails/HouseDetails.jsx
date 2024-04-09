@@ -21,7 +21,7 @@ const HouseDetails = () => {
     return (
         <section className="max-w-screen-xl mx-auto mt-10 mb-32">
                 <div className="flex gap-x-6">
-                    <div className="w-[70%]">
+                    <div className="w-[70%] mt-12">
                          <img className="h-[500px] w-full rounded-lg" src={image} alt="" />
                          <div className="grid grid-cols-3 gap-x-5 mt-6">
                             {
@@ -52,7 +52,9 @@ const HouseDetails = () => {
                             <h1 className="text-lg font-semibold my-3">Location</h1>
                             <h1 className="text-2xl font-medium flex items-center gap-x-3"><MdLocationOn className="text-red-600"/>{location}</h1>
                             <div className="my-4 h-96">
-                                <Map position={position} />
+                                {
+                                    position && <Map position={position} />
+                                }
                             </div>
                             
                         </div>

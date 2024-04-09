@@ -29,11 +29,12 @@ const Header = () => {
     return (
         <header className="max-w-screen-xl mx-auto">
             <nav className="flex items-center justify-between py-5">
-                <h1 className="text-4xl font-bold"><span className="text-[#6E00FF]">Dream</span> House</h1>
+                <Link to='/' className="text-4xl font-bold"><span className="text-[#6E00FF]">Dream</span> House</Link>
                 <ul className="flex items-center gap-x-8 text-lg font-medium">
                     <NavLink to='/'>Home</NavLink>
                     <NavLink to='/about'>About Us</NavLink>
                     <NavLink to='/contract'>Contract</NavLink>
+                    <NavLink to='/profile'>Profile</NavLink>
                 </ul>
                 <div className="flex items-center gap-x-3">
                 {

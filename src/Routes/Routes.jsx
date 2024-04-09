@@ -8,6 +8,7 @@ import HouseDetails from "../Pages/HouseDetails/HouseDetails";
 import SignUp from "../Pages/SignUp/SignUp";
 import Login from "../Pages/Login/Login";
 import PrivateComponent from "../Component/Private/PrivateComponent";
+import Profile from "../Pages/Profile/Profile";
 
 export const router = createBrowserRouter([
     {
@@ -40,6 +41,10 @@ export const router = createBrowserRouter([
             {
                 path:'/login',
                 element:<Login/>
+            },
+            {
+                path:'/profile',
+                element:<Profile/>
             }
         ]
     }
