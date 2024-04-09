@@ -6,11 +6,14 @@ import { GoUnverified } from "react-icons/go";
 import Swal from 'sweetalert2'
 import { Helmet } from "react-helmet-async";
 import { Tooltip } from 'react-tooltip'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Profile = () => {
 
     const{user , updateUserProfile} = useContext(AuthContext)
-    console.log(user);
     const {
         register,
         handleSubmit,
@@ -27,9 +30,8 @@ const Profile = () => {
                 title: "Update Successful!",
                 text: "Click Ok button",
                 icon: "success"
-              });
-            
-
+              })
+              window.location.reload();
         } )
         .catch( errors => {
             Swal.fire({
@@ -48,18 +50,18 @@ const Profile = () => {
                 <title>Profile</title>
             </Helmet>
             <div className="md:w-[500px] mx-auto">
-                <h1 className="text-5xl font-semibold text-center">My Profile</h1>
+                <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" className="text-5xl font-semibold text-center">My Profile</h1>
                 {
                     user && <div>
-                    <div className="p-2 w-fit rounded-full border-2 border-indigo-600 mt-5 flex justify-center mx-auto">
-                        <img className="rounded-full w-60 h-60" src={user.photoURL} alt="" />
+                    <div data-aos-delay="100" data-aos-duration="1000" data-aos="zoom-in-up" className="p-2 w-fit rounded-full border-2 border-indigo-600 mt-5 flex justify-center mx-auto">
+                        <img  className="rounded-full w-60 h-60" src={user.photoURL} alt="" />
                     </div>
-                    <p className="text-lg font-semibold mt-4">Full Name : {user.displayName}</p>
-                    <div className="flex items-center gap-x-4 ">
+                    <p data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000" className="text-lg font-semibold mt-4">Full Name : {user.displayName}</p>
+                    <div data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000" className="flex items-center gap-x-4 ">
                     <p className="text-lg font-semibold mt-4">Email : {user.email}</p>
                     <p className="text-2xl mt-3 text-indigo-600">{user.emailVerified ? <MdVerified data-tooltip-content="Verified" data-tooltip-place="top" data-tooltip-id="my-tooltip"  /> : <GoUnverified data-tooltip-content="Not Verified" data-tooltip-place="top" data-tooltip-id="my-tooltip" /> }</p>
                     </div>
-                    <p className="text-lg font-semibold mt-4">Phone Number : {user.phoneNumber}</p>
+                    <p data-aos="fade-right" data-aos-delay="600" data-aos-duration="1000" className="text-lg font-semibold mt-4">Phone Number : {user.phoneNumber}</p>
                 </div>
                 }
             </div>

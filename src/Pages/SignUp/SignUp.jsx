@@ -18,7 +18,7 @@ const SignUp = () => {
         formState: { errors },
       } = useForm()
     
-    const { signUp , updateUserProfile } = useContext(AuthContext)
+    const { signUp , updateUserProfile , setUser } = useContext(AuthContext)
 
     const navigate = useNavigate();
     const location = useLocation();
@@ -47,21 +47,23 @@ const SignUp = () => {
         .then( result => {
           updateUserProfile(fullName,image)
             .then( () => {
-              
+              setUser(result.user)
+              Swal.fire({
+                title: "Sign Up Successful!",
+                text: "Click Ok button",
+                icon: "success"
+              });
+              // window.location.reload();
+              navigateNow()
             })
             .catch(error => {
+              console.log(error);
               return Swal.fire({
                 title: `${error.message.split('/')[1].split(')')[0]}`,
                 text: "Click Ok For Close!",
                 icon: "error"
               })
             })
-            Swal.fire({
-                title: "Sign Up Successful!",
-                text: "Click Ok button",
-                icon: "success"
-              });
-              navigateNow()
         } )
         .catch( errors => {
             Swal.fire({

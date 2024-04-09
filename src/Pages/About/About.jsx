@@ -1,4 +1,8 @@
 import { Helmet } from "react-helmet-async";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const About = () => {
     return (
@@ -7,29 +11,29 @@ const About = () => {
                 <title>About Us</title>
             </Helmet>
             <div className="flex md:mb-0 mb-5 md:flex-row flex-col-reverse gap-y-6 md:items-center gap-x-6 max-w-screen-xl mx-auto md:h-[600px]">
-                <div className="md:w-[40%]">
-                     <h1 className="md:text-5xl text-2xl font-normal text-[#010101] mb-4">Elevating the Art of Luxury Living</h1>
-                     <p className="text-base font-normal">At Dream House, we are more than just realtors; we are curators of exceptional lifestyles. We understand that a luxury property isn't simply a collection of bricks and mortar; it's a canvas for your dreams.</p>
+                <div  className="md:w-[40%]">
+                     <h1 data-aos="fade-right" data-aos-delay='200'  data-aos-duration="1000" className="md:text-5xl text-2xl font-normal text-[#010101] mb-4" >Elevating the Art of Luxury Living</h1>
+                     <p data-aos="fade-right" data-aos-delay='300'  data-aos-duration="1000" className="text-base font-normal">At Dream House, we are more than just realtors; we are curators of exceptional lifestyles. We understand that a luxury property isn't simply a collection of bricks and mortar; it's a canvas for your dreams.</p>
                 </div>
-                <div className="md:w-[60%] ">
+                <div data-aos="fade-left" data-aos-delay='500'  data-aos-duration="1000" data-aos-mirror="true" className="md:w-[60%] ">
                     <img className="rounded-xl" src="https://i.postimg.cc/yNQSMRGx/dreamstime-m-4794570-e1467280605773.jpg" alt="" />
                 </div>
             </div>
             <div className="flex md:flex-row md:mb-0 mb-5  flex-col items-center gap-x-6 max-w-screen-xl mx-auto md:h-[600px]">
-                <div className="md:w-[60%] ">
+                <div data-aos="fade-right" data-aos-delay='500'  data-aos-duration="1000" className="md:w-[60%] ">
                     <img className="rounded-xl" src="https://i.postimg.cc/jSY9fwZD/thisway.png" alt="" />
                 </div>
                 <div className="md:w-[40%]">
-                     <h1 className="md:text-5xl text-2xl font-normal text-[#010101] mb-4">Discernment, Dedication, Distinction</h1>
-                     <p className="text-base font-normal">We believe in a discerning approach to luxury real estate.  Our team of highly-trained professionals possesses an unparalleled understanding of the market,  meticulously selecting only the most extraordinary properties that embody elegance, sophistication, and a commitment to excellence.</p>
+                     <h1 data-aos="fade-left" data-aos-delay='200'  data-aos-duration="1000" className="md:text-5xl text-2xl font-normal text-[#010101] mb-4">Discernment, Dedication, Distinction</h1>
+                     <p data-aos="fade-left" data-aos-delay='300'  data-aos-duration="1000" className="text-base font-normal">We believe in a discerning approach to luxury real estate.  Our team of highly-trained professionals possesses an unparalleled understanding of the market,  meticulously selecting only the most extraordinary properties that embody elegance, sophistication, and a commitment to excellence.</p>
                 </div>
             </div>
             <div className="flex md:flex-row md:mb-0 mb-5 flex-col-reverse items-center gap-x-6 max-w-screen-xl mx-auto md:h-[600px]">
                 <div className="md:w-[40%]">
-                     <h1 className="md:text-5xl text-2xl font-normal text-[#010101] mb-4">Unwavering Service, Unmatched Expertise</h1>
-                     <p className="text-base font-normal">Our unwavering dedication to exceptional service ensures a seamless experience throughout your journey.  From the initial consultation to the final closing, we provide personalized guidance and support, anticipating your needs and exceeding your expectations.</p>
+                     <h1 data-aos="fade-right" data-aos-delay='200'  data-aos-duration="1000" className="md:text-5xl text-2xl font-normal text-[#010101] mb-4">Unwavering Service, Unmatched Expertise</h1>
+                     <p data-aos="fade-right" data-aos-delay='300'  data-aos-duration="1000" className="text-base font-normal">Our unwavering dedication to exceptional service ensures a seamless experience throughout your journey.  From the initial consultation to the final closing, we provide personalized guidance and support, anticipating your needs and exceeding your expectations.</p>
                 </div>
-                <div className="md:w-[60%] ">
+                <div data-aos="fade-left" data-aos-delay='500'  data-aos-duration="1000" className="md:w-[60%] ">
                     <img className="rounded-xl" src="https://i.postimg.cc/tTFDp2GD/support.jpg" alt="" />
                 </div>
             </div>

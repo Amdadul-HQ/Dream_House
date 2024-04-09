@@ -1,11 +1,19 @@
 import { Link, useLoaderData } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const FindHome = () => {
     const property = useLoaderData()
     return (
         <section className="my-32 max-w-screen-xl mx-auto md:px-0 px-5">
-            <h1 className="text-[#010101] font-normal text-4xl md:text-7xl text-center">Find Your <span className="text-[#6E00FF] font-semibold">Dream</span><br /> Home Here </h1>
-            <p className="text-center mt-5 text-sm md:text-xl">Explore opulent residences tailored to your desires, from serene estates to chic city retreats. Your dream home awaits amidst luxury.</p>
+            <h1 data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom" data-aos-delay="200"
+     data-aos-duration="1000" className="text-[#010101] font-normal text-4xl md:text-7xl text-center">Find Your <span className="text-[#6E00FF] font-semibold">Dream</span><br /> Home Here </h1>
+            <p data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom" data-aos-delay="400"
+     data-aos-duration="1000" className="text-center mt-5 text-sm md:text-xl">Explore opulent residences tailored to your desires, from serene estates to chic city retreats. Your dream home awaits amidst luxury.</p>
             <div className="grid md:grid-cols-3 grid-cols-1 gap-6 my-12">
                 {
                     property.map( house => <div key={house.id} className="p-5 border rounded-xl flex flex-col justify-between">

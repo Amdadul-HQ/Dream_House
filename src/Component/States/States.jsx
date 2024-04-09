@@ -1,7 +1,8 @@
 const States = () => {
     return (
             <section className="p-6 bg-gray-100 dark:text-gray-800">
-                <h1 className="text-[#010101] font-normal text-4xl md:text-7xl text-center my-5">Let's See Our <br /> <span className="font-medium text-indigo-600">Starts</span> </h1>
+                <h1  data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="1000" data-aos-delay="200" className="text-[#010101] font-normal text-4xl md:text-7xl text-center my-5">Let's See Our <br /> <span className="font-medium text-indigo-600">Starts</span> </h1>
                 <div className="container mx-auto grid justify-center grid-cols-2 text-center lg:grid-cols-3">
                     <div className="flex flex-col justify-start m-2 lg:m-6">
                         <p className="text-4xl font-bold leading-none lg:text-6xl">50+</p>

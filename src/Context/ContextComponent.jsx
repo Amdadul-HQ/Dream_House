@@ -57,7 +57,7 @@ const ContextComponent = ({children}) => {
         return () => unSubcribe()
     },[])
 
-    const info = { signUp , logIn , signInWithGoogle , user , signInWithGitHub , logOut , loading , updateUserProfile}
+    const info = { signUp , logIn , signInWithGoogle , user , signInWithGitHub , logOut , loading , updateUserProfile , setUser }
     return (
         <AuthContext.Provider value={info}>
             {children}
