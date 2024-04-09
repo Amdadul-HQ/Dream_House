@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form';
 import { MdVerified } from "react-icons/md";
 import { GoUnverified } from "react-icons/go";
 import Swal from 'sweetalert2'
+import { Helmet } from "react-helmet-async";
 
 const Profile = () => {
 
@@ -42,6 +43,9 @@ const Profile = () => {
 
     return (
         <section>
+            <Helmet>
+                <title>Profile</title>
+            </Helmet>
             <div className="w-[500px] mx-auto">
                 <h1 className="text-5xl font-semibold text-center">My Profile</h1>
                 {

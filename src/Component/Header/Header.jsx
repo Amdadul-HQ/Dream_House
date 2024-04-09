@@ -33,7 +33,6 @@ const Header = () => {
                 <ul className="flex items-center gap-x-8 text-lg font-medium">
                     <NavLink to='/'>Home</NavLink>
                     <NavLink to='/about'>About Us</NavLink>
-                    <NavLink to='/contract'>Contract</NavLink>
                     <NavLink to='/profile'>Profile</NavLink>
                 </ul>
                 <div className="flex items-center gap-x-3">

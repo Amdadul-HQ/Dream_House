@@ -5,6 +5,7 @@ import { IoMdEyeOff } from "react-icons/io";
 import { AuthContext } from '../../Context/ContextComponent';
 import { useForm } from 'react-hook-form';
 import Swal from 'sweetalert2'
+import { Helmet } from 'react-helmet-async';
 
 
 const Login = () => {
@@ -89,6 +90,9 @@ const Login = () => {
     }
     return (
         <section className="mt-5 mb-32">
+            <Helmet>
+                <title>Login</title>
+            </Helmet>
         <div className="flex justify-between items-center ">
             <div className="bg-gray-200 w-[650px] mx-auto py-6 px-10 rounded-md border">
                  <h1 className="text-4xl font-semibold text-center">Login Your Account</h1>

@@ -3,6 +3,7 @@ import { useLoaderData ,useParams  } from "react-router-dom";
 import { FaCircleArrowRight } from "react-icons/fa6";
 import { MdLocationOn } from "react-icons/md"
 import Map from "../../Component/Map/Map";
+import { Helmet } from "react-helmet-async";
 
 
 const HouseDetails = () => {
@@ -20,6 +21,9 @@ const HouseDetails = () => {
     const {rooms,image,facilities,estate_title,segment_name,description,area,status,price,location,position} = house;
     return (
         <section className="max-w-screen-xl mx-auto mt-10 mb-32">
+            <Helmet>
+                <title>House Details</title>
+            </Helmet>
                 <div className="flex gap-x-6">
                     <div className="w-[70%] mt-12">
                          <img className="h-[500px] w-full rounded-lg" src={image} alt="" />
