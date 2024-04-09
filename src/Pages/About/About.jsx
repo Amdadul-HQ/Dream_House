@@ -6,7 +6,7 @@ AOS.init();
 
 const About = () => {
     return (
-        <section className="md:px-0 px-5">
+        <section className="md:px-0 px-3">
             <Helmet>
                 <title>About Us</title>
             </Helmet>

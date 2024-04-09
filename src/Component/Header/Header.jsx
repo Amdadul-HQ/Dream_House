@@ -37,7 +37,7 @@ const Header = () => {
         <header className="max-w-screen-xl mx-auto md:mb-0 mb-14">
             <nav className="flex items-center justify-between py-5 md:px-0 px-5">
                 <Link to='/' className="md:text-4xl text-xl font-bold"><span className="text-[#6E00FF]">Dream</span> House</Link>
-                <ul className={`flex md:static md:flex-row fixed flex-row top-20 ${showMenu ? "right-5" : "-right-full"} transition-all duration-500 fixed items-center gap-x-1 md:gap-x-8 text-lg font-medium`}>
+                <ul className={`flex md:static md:flex-row fixed top-20 ${showMenu ? "right-10" : "-right-96"} transition-all duration-500 fixed items-center gap-x-1 md:gap-x-8 text-lg font-medium`}>
                     <NavLink className={({isActive}) => isActive ? 'text-indigo-600 md:font-semibold px-2 py-1 rounded-lg border-2 border-indigo-600 hover:bg-indigo-600 hover:text-white transition-all' : 'px-2 py-1 transition-all duration-500 hover:bg-indigo-600 hover:text-white border border-transparent rounded-lg'} to='/'>Home</NavLink>
                     <NavLink className={({isActive}) => isActive ? 'text-indigo-600 md:font-semibold px-2 py-1 rounded-lg border-2 border-indigo-600 hover:bg-indigo-600 hover:text-white transition-all' : 'px-2 py-1 transition-all duration-500 hover:bg-indigo-600 hover:text-white border border-transparent rounded-lg'} to='/about'>About Us</NavLink>
                     <NavLink className={({isActive}) => isActive ? 'text-indigo-600 md:font-semibold px-2 py-1 rounded-lg border-2 border-indigo-600 hover:bg-indigo-600 hover:text-white transition-all' : 'px-2 py-1 transition-all duration-500 hover:bg-indigo-600 hover:text-white border border-transparent rounded-lg'} to='/faq'>FAQ</NavLink>
