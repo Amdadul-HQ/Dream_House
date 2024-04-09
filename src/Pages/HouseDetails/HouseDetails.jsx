@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useLoaderData ,useParams  } from "react-router-dom";
 import { FaCircleArrowRight } from "react-icons/fa6";
 import { MdLocationOn } from "react-icons/md"
+import Map from "../../Component/Map/Map";
 
 
 const HouseDetails = () => {
@@ -16,7 +17,7 @@ const HouseDetails = () => {
         setHouse(item)
     },[house, id, property])
 
-    const {rooms,image,facilities,estate_title,segment_name,description,area,status,price,location,location_url} = house;
+    const {rooms,image,facilities,estate_title,segment_name,description,area,status,price,location,position} = house;
     return (
         <section className="max-w-screen-xl mx-auto mt-10 mb-32">
                 <div className="flex gap-x-6">
@@ -33,7 +34,6 @@ const HouseDetails = () => {
                         <p className="text-lg font-medium text-center pb-1 border-b-2">A Luxurious {segment_name}</p>
                         <h1 className="text-[#010101] text-3xl font-medium my-4">{estate_title}</h1>
                         <p className="text-[#6A6A6A] font-medium mb-3">Details: {description}</p>
-                        <p className="text-lg font-semibold">Area: {area}</p>
                         <h1 className="text-lg font-semibold mt-3">Facilities:</h1>
                         {
                             facilities && <ul className="list-disc space-y-2 mb-4 mt-3">
@@ -42,22 +42,17 @@ const HouseDetails = () => {
                            <li className="flex items-center gap-x-2 text-base bg-sky-200 px-2 py-1 rounded-lg font-medium"><FaCircleArrowRight className="text-green-600"/>{facilities[2]}</li>
                         </ul>
                         }
+                        <p className="text-lg font-semibold">Area: {area}</p>
                         <div className="flex justify-between items-center text-lg font-semibold my-3">
                             <p>Status: For {status}</p>
                             <p>Price: {price}</p>
                         </div>
 
                         <div className="">
+                            <h1 className="text-lg font-semibold my-3">Location</h1>
                             <h1 className="text-2xl font-medium flex items-center gap-x-3"><MdLocationOn className="text-red-600"/>{location}</h1>
-                            <div className="my-4">
-                               <iframe
-                                src={location_url}
-                                width={'100%'}
-                                height="350"
-                                style={{ border: 0, borderRadius: '12px' }}
-                                allowFullScreen={true}
-                                loading="lazy"
-                                referrerPolicy="no-referrer-when-downgrade"></iframe>
+                            <div className="my-4 h-96">
+                                <Map position={position} />
                             </div>
                             
                         </div>
