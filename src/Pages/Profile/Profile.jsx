@@ -50,24 +50,24 @@ const Profile = () => {
                 <title>Profile</title>
             </Helmet>
             <div className="md:w-[500px] mx-auto">
-                <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" className="text-5xl font-semibold text-center">My Profile</h1>
+                <h1 className="text-5xl font-semibold text-center">My Profile</h1>
                 {
                     user && <div>
                     <div data-aos-delay="100" data-aos-duration="1000" data-aos="zoom-in-up" className="p-2 w-fit rounded-full border-2 border-indigo-600 mt-5 flex justify-center mx-auto">
                         <img  className="rounded-full w-60 h-60" src={user.photoURL} alt="" />
                     </div>
-                    <p data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000" className="text-lg font-semibold mt-4">Full Name : {user.displayName}</p>
-                    <div data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000" className="flex items-center gap-x-4 ">
+                    <p data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" className="text-lg font-semibold mt-4">Full Name : {user.displayName}</p>
+                    <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" className="flex items-center gap-x-4 ">
                     <p className="text-lg font-semibold mt-4">Email : {user.email}</p>
                     <p className="text-2xl mt-3 text-indigo-600">{user.emailVerified ? <MdVerified data-tooltip-content="Verified" data-tooltip-place="top" data-tooltip-id="my-tooltip"  /> : <GoUnverified data-tooltip-content="Not Verified" data-tooltip-place="top" data-tooltip-id="my-tooltip" /> }</p>
                     </div>
-                    <p data-aos="fade-right" data-aos-delay="600" data-aos-duration="1000" className="text-lg font-semibold mt-4">Phone Number : {user.phoneNumber}</p>
+                    <p data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" className="text-lg font-semibold mt-4">Phone Number : {user.phoneNumber}</p>
                 </div>
                 }
             </div>
-                <div className="bg-gray-200 md:w-[650px] mx-auto py-6 px-10 rounded-md border my-12">
+                <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" className="bg-gray-200 md:w-[650px] mx-auto py-6 px-10 rounded-md border my-12">
                     <h1 className="md:text-5xl text-xl font-semibold text-center my-10">Update <br /> Your Information</h1>
-                    <form to='/profile' onSubmit={handleSubmit(onSubmit)}>
+                    <form to='/profile' data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" onSubmit={handleSubmit(onSubmit)}>
                             <div>
                                 <label className="text-xl font-semibold" htmlFor="fullName">Your Name</label>
                                 <input {...register("fullName", { required: true })}  className="bg-Dark3 px-5 py-3 block mt-4 w-full outline-none rounded-md" type="text" name="fullName" id="fullName" placeholder="Enter your name" />
