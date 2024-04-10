@@ -18,7 +18,7 @@ const SignUp = () => {
         formState: { errors },
       } = useForm()
     
-    const { signUp , updateUserProfile , setUser } = useContext(AuthContext)
+    const { signUp , updateUserProfile , setUser , logOut } = useContext(AuthContext)
 
     const navigate = useNavigate();
     const location = useLocation();
@@ -53,7 +53,10 @@ const SignUp = () => {
                 text: "Click Ok button",
                 icon: "success"
               });
-              // window.location.reload();
+              logOut()
+              .then( () => {
+                
+              })
               navigateNow()
             })
             .catch(error => {
