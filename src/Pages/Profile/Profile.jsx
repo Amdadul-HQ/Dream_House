@@ -25,7 +25,7 @@ const Profile = () => {
         const {fullName ,image} = data;
 
         updateUserProfile(fullName,image)
-        .then( result => {
+        .then( () => {
             Swal.fire({
                 title: "Update Successful!",
                 text: "Click Ok button",

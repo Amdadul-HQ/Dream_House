@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Helmet } from "react-helmet-async";
 // ..
 import pic1 from '../../assets/dreamstime_m_4794570-e1467280605773.jpg'

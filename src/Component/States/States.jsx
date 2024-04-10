@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const States = () => {
     return (
             <section className="p-6 bg-gray-100 dark:text-gray-800">
